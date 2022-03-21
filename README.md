@@ -1,8 +1,8 @@
 # prova-sprint-1
-<html>"quiz" referente a questão 6
+<html>"quiz" referente a questão 6 - JOptionPane
 <br> 
 <br>--------------------------------- 
-<br>"usuario_senha" referente a questão 7
+<br>"usuario_senha" referente a questão 7 - JOptionPane
 <br>
 <br>usuarios cadastrados: 
 <br>usuario: wesley
@@ -14,5 +14,5 @@
 <br>usuario: beltrano
 <br>senha: 00000
 <br>--------------------------------- 
-<br>"funcionario" referente a questão 8
+<br>"funcionario" referente a questão 8 - No console (Scanner)
 </hmtl>
