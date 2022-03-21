@@ -36,7 +36,7 @@ public class Funcionario {
         if (salario < 1000) {
             this.bonusOuDesconto =  salario * 0.2;
             this.salarioLiquido = this.bonusOuDesconto + this.salario;
-        }else if(salario < 2000){
+        }else if(salario <= 2000){
             this.bonusOuDesconto = this.salario * 0.1;
             this.salarioLiquido =  this.salario + this.bonusOuDesconto;
         }else{

@@ -25,7 +25,7 @@ public class Main {
         }
         NumberFormat formatado = new DecimalFormat("0.00");
         for (int i = 0; i < funcionarios.length; i++) {
-            if (funcionarios[i].getSalario() < 2000) {
+            if (funcionarios[i].getSalario() <= 2000) {
                 System.out.println("\nFuncionário " + funcionarios[i].getNome()
                         + "\n Salário: " + formatado.format(funcionarios[i].getSalario())
                         + "\n Bonus: " + formatado.format(funcionarios[i].getBonusOuDesconto())
